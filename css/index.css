@@ -1,0 +1,158 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body,ul,li,p,h3{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+.notebox{
+    width:100%;
+    height:100%;
+}
+.note-left{
+    width: 25%;
+    height: 100%;
+    background: #333;
+    float: left;
+    color: white;
+    font-weight: bold;
+    line-height: 45px;
+}
+.note-left-contain{
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
+}
+.search-box{
+    position: relative;
+}
+.glyphicon-search{
+    height: 100%;
+    position: absolute;
+    line-height: 45px;
+    left: 5px;
+    top:0;
+}
+.sousuo{
+    width: 60%;
+    height: 70%;
+    font-size:16px;
+    float: left;
+    background:#333;
+    border-radius: 5px;
+    margin-top: 6px;
+    padding-left: 30px;
+}
+.note-left h3{
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #2A2A28;
+    font-weight: normal;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.note-left h3 span{
+    float: right;
+    line-height: 45px;
+}
+.note-left-title span{
+    font-size: 16px;
+    line-height: 45px;
+    float: right;
+    cursor: pointer;
+}
+.note-left li{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 45px;
+    border-bottom: 1px solid #2A2A28;
+    cursor: pointer;
+    padding-right:45px;
+}
+.note-left li input{
+    width: 75%;
+    height: 40px;
+    border: none;
+    background:#333;
+    cursor: pointer;
+}
+.note-left li input:focus{
+    outline: none;
+}
+.note-left li span{
+    width: 45px;
+    height: 45px;
+    float: right;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+.note-right{
+    width:75%;
+    height:100%;
+    background: #fff;
+    float: left;
+    color: #333;
+}
+.note-left-title,.note-right-title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #2A2A28;
+    font-size: 30px;
+    padding:0 20px;
+}
+.note-right-title{
+    border-bottom: 1px solid #E0E0E0;
+}
+.note-right-title span{
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.note-right-contain{
+    width: 95%;
+    height: auto;
+    margin-left: 5%;
+}
+.note-right li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #E0E0E0;
+    cursor: pointer;
+}
+.note-right li span{
+    display: block;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.note-right li input{
+    width: 90%;
+    height: 90%;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+.note-right .biaoti{
+    height: 70px;
+    font-size: 35px;
+    line-height: 70px;
+    color: #CCCCCC;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
